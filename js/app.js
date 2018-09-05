@@ -3,7 +3,7 @@ angular.module("findMusicApp", ["ngRoute", "Route", "UserService", "UserDataServ
 angular.module("findMusicApp").config(function($locationProvider, $routeProvider) {$locationProvider.html5Mode(true);
     
     $routeProvider.when("Krontime-Project1.github.io/project_1", {
-        templateUrl: "Krontime-Project1.github.io/templates/home.html",
+        templateUrl: "/templates/home.html",
     })
     .when("/copyright", {
         templateUrl: "Krontime-Project1.github.io/templates/copyright.html",

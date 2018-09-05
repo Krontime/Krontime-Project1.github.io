@@ -3,7 +3,7 @@ $(document).ready(function() {
                 let style = localStorage.getItem("stylesheet");
                 document.getElementById("stylesheets").href = style;
             }
-    if (window.location.href == "https://krontime.github.io/Krontime-Project1.github.io/index.html") {
+    if (window.location.href == "Krontime-Project1.github.io/index.html") {
         
     window.location.href = "Krontime-Project1.github.io/project_1";
             

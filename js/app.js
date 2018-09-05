@@ -2,40 +2,40 @@ angular.module("findMusicApp", ["ngRoute", "Route", "UserService", "UserDataServ
 
 angular.module("findMusicApp").config(function($locationProvider, $routeProvider) {$locationProvider.html5Mode(true);
     
-    $routeProvider.when("/project_1", {
-        templateUrl: "/templates/home.html",
+    $routeProvider.when("Krontime-Project1.github.io/project_1", {
+        templateUrl: "https://krontime.github.io/Krontime-Project1.github.io/templates/home.html",
     })
-    .when("/copyright", {
-        templateUrl: "/templates/copyright.html",
+    .when("Krontime-Project1.github.io/copyright", {
+        templateUrl: "https://krontime.github.io/Krontime-Project1.github.io/templates/copyright.html",
     })
-    .when("/contact",{
-        templateUrl: "/templates/contact.html"
+    .when("Krontime-Project1.github.io/contact",{
+        templateUrl: "https://krontime.github.io/Krontime-Project1.github.io/templates/contact.html"
     })
-    .when("/add", {
-        templateUrl: "/templates/add.html",
+    .when("Krontime-Project1.github.io/add", {
+        templateUrl: "https://krontime.github.io/Krontime-Project1.github.io/templates/add.html",
         controller: "Post"
     })
-    .when("/accounts/register", {
-        templateUrl: "/templates/register.html",
+    .when("Krontime-Project1.github.io/accounts/register", {
+        templateUrl: "https://krontime.github.io/Krontime-Project1.github.io/templates/register.html",
         controller: "Register"
     })
-    .when("/about", {
-        templateUrl: "/templates/about.html",
+    .when("Krontime-Project1.github.io/about", {
+        templateUrl: "https://krontime.github.io/Krontime-Project1.github.io/templates/about.html",
     })
-    .when("/find_music", {
-        templateUrl: "/templates/find_music.html",
+    .when("Krontime-Project1.github.io/find_music", {
+        templateUrl: "https://krontime.github.io/Krontime-Project1.github.io/templates/find_music.html",
         controller: "Events"
     })
-    .when("/find_artists/", {
-        templateUrl: "/templates/find_artists.html",
+    .when("Krontime-Project1.github.io/find_artists/", {
+        templateUrl: "https://krontime.github.io/Krontime-Project1.github.io/templates/find_artists.html",
         controller: "informationRouting"
     })
-    .when("/find_artists/:id", {
-        templateUrl: "/templates/find_artists.html",
+    .when("Krontime-Project1.github.io/find_artists/:id", {
+        templateUrl: "https://krontime.github.io/Krontime-Project1.github.io/templates/find_artists.html",
         controller: "informationContent"
     })
-    .when("/todo/edit/:id", {
-        templateUrl: "templates/edit-todo.html",
+    .when("Krontime-Project1.github.io/todo/edit/:id", {
+        templateUrl: "https://krontime.github.io/Krontime-Project1.github.io/templates/edit-todo.html",
         controller: "EditTodoController"
     });
 });

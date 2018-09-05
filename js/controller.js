@@ -66,7 +66,7 @@ angular.module("Route", [])
     
     .controller("informationRouting", function($scope, $location, $routeParams, UserAPIService) {
     
-        $.getJSON("../templates/pagedata/main_template_data.json", {}, function(data) {
+        $.getJSON("https://krontime.github.io/Krontime-Project1.github.io/templates/pagedata/main_template_data.json", {}, function(data) {
         let mydata = data;
     
         for(let i = 0; i < data.length; i++) {
@@ -91,18 +91,18 @@ angular.module("Route", [])
         let jsonFile;
         
         if (id == "00") {
-            jsonFile = "../templates/pagedata/techno_sub-genre_data.json";
+            jsonFile = "https://krontime.github.io/Krontime-Project1.github.io/templates/pagedata/techno_sub-genre_data.json";
         } else if (id == "03") {
-            jsonFile = "../templates/pagedata/house_sub-genre_data.json";
+            jsonFile = "https://krontime.github.io/Krontime-Project1.github.io/templates/pagedata/house_sub-genre_data.json";
             console.log("This");
         } else if (id == "0307") {
-            jsonFile = "../templates/pagedata/electro_house_artist_data.json";
+            jsonFile = "https://krontime.github.io/Krontime-Project1.github.io/templates/pagedata/electro_house_artist_data.json";
             console.log("That");
         } else if (id == "030700") {
-            jsonFile = "../templates/pagedata/electro_house_artists/armin_van_buuren.json";
+            jsonFile = "https://krontime.github.io/Krontime-Project1.github.io/templates/pagedata/electro_house_artists/armin_van_buuren.json";
             console.log("Thatothre");
         } else {
-            jsonFile = "../templates/pagedata/main_tamplate_data.json";
+            jsonFile = "https://krontime.github.io/Krontime-Project1.github.io/templates/pagedata/main_tamplate_data.json";
             alert("Still working on that page!!");
         }
         

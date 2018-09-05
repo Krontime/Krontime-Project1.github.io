@@ -3,24 +3,24 @@ $(document).ready(function() {
                 let style = localStorage.getItem("stylesheet");
                 document.getElementById("stylesheets").href = style;
             }
-    if (window.location.href == "https://project-1-krontime.c9users.io/index.html") {
+    if (window.location.href == "https://krontime.github.io/Krontime-Project1.github.io/index.html") {
         
-    window.location.href = "/project_1";
+    window.location.href = "Krontime-Project1.github.io/project_1";
             
     }
     $("#stylesheetDropdown a").click(function(){
         if ($(this).attr("id") == "day"){
-            document.getElementById("stylesheets").href = "css/day_stylsheet.css";
-            localStorage.setItem("stylesheet", "css/day_stylsheet.css")
+            document.getElementById("stylesheets").href = "Krontime-Project1.github.io/css/day_stylsheet.css";
+            localStorage.setItem("stylesheet", "Krontime-Project1.github.io/css/day_stylsheet.css")
         } else if ($(this).attr("id") == "night"){
-            document.getElementById("stylesheets").href = "css/night_stylsheet.css";
-            localStorage.setItem("stylesheet", "css/night_stylsheet.css")
+            document.getElementById("stylesheets").href = "Krontime-Project1.github.io/css/night_stylsheet.css";
+            localStorage.setItem("stylesheet", "Krontime-Project1.github.io/css/night_stylsheet.css")
         } else if ($(this).attr("id") == "sea"){
-            document.getElementById("stylesheets").href = "css/sea_stylsheet.css";
-            localStorage.setItem("stylesheet", "css/sea_stylsheet.css")
+            document.getElementById("stylesheets").href = "Krontime-Project1.github.io/css/sea_stylsheet.css";
+            localStorage.setItem("stylesheet", "Krontime-Project1.github.io/css/sea_stylsheet.css")
         } else if ($(this).attr("id") == "future"){
-            document.getElementById("stylesheets").href = "css/future_stylsheet.css";
-            localStorage.setItem("stylesheet", "css/future_stylsheet.css")
+            document.getElementById("stylesheets").href = "Krontime-Project1.github.io/css/future_stylsheet.css";
+            localStorage.setItem("stylesheet", "Krontime-Project1.github.io/css/future_stylsheet.css")
         } 
     });
     

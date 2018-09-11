@@ -94,13 +94,10 @@ angular.module("Route", [])
             jsonFile = "Krontime-Project1.github.io/templates/pagedata/techno_sub-genre_data.json";
         } else if (id == "03") {
             jsonFile = "Krontime-Project1.github.io/templates/pagedata/house_sub-genre_data.json";
-            console.log("This");
         } else if (id == "0307") {
             jsonFile = "Krontime-Project1.github.io/templates/pagedata/electro_house_artist_data.json";
-            console.log("That");
         } else if (id == "030700") {
             jsonFile = "Krontime-Project1.github.io/templates/pagedata/electro_house_artists/armin_van_buuren.json";
-            console.log("Thatothre");
         } else {
             jsonFile = "Krontime-Project1.github.io/templates/pagedata/main_tamplate_data.json";
             alert("Still working on that page!!");

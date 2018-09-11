@@ -6,7 +6,7 @@ angular.module("findMusicApp").config(function($locationProvider, $routeProvider
         templateUrl: "Krontime-Project1.github.io/templates/home.html",
     })
     .when("/project_1", {
-        templateUrl: "Krontime-Project1.github.io/templates/copyright.html",
+        templateUrl: "Krontime-Project1.github.io/templates/home.html",
     })
     .when("/copyright", {
         templateUrl: "Krontime-Project1.github.io/templates/copyright.html",

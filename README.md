@@ -1,4 +1,4 @@
-# ENTER NAME HERE
+# EDMusic
  
 ## Overview
  
